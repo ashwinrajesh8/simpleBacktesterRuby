@@ -1,0 +1,2383 @@
+Started GET "/" for ::1 at 2022-03-02 21:06:13 -0600
+  [1m[35m (20.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 88.9ms | Allocations: 636)
+Completed 200 OK in 323ms (Views: 160.0ms | ActiveRecord: 0.0ms | Allocations: 5014)
+
+
+Started GET "/" for ::1 at 2022-03-02 21:17:07 -0600
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 315)
+  Rendered layout layouts/application.html.erb (Duration: 1397.2ms | Allocations: 72502)
+Completed 500 Internal Server Error in 1489ms (ActiveRecord: 0.0ms | Allocations: 75587)
+
+
+  
+ActionView::Template::Error (Permission denied @ rb_file_s_rename - (C:/Users/Ashwi/Documents/github/simpleBacktester/frontend/tmp/cache/assets/sprockets/v4.0.0/Pn/PnfAMSz3Bn_QiCYp32bNsTV_Dlcz2V8qtIAb9p9EoNM.cache.20900.21184.927624, C:/Users/Ashwi/Documents/github/simpleBacktester/frontend/tmp/cache/assets/sprockets/v4.0.0/Pn/PnfAMSz3Bn_QiCYp32bNsTV_Dlcz2V8qtIAb9p9EoNM.cache)):
+  
+sprockets (4.0.3) lib/sprockets/path_utils.rb:362:in `rename'
+sprockets (4.0.3) lib/sprockets/path_utils.rb:362:in `atomic_write'
+sprockets (4.0.3) lib/sprockets/cache/file_store.rb:112:in `set'
+sprockets (4.0.3) lib/sprockets/cache.rb:227:in `set'
+sprockets (4.0.3) lib/sprockets/cache.rb:143:in `set'
+sprockets (4.0.3) lib/sprockets/loader.rb:266:in `store_asset'
+sprockets (4.0.3) lib/sprockets/loader.rb:226:in `load_from_unloaded'
+sprockets (4.0.3) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.0.3) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.0.3) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.0.3) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.0.3) lib/sprockets/bundle.rb:32:in `block in call'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each_key'
+C:/Ruby31-x64/lib/ruby/3.1.0/set.rb:511:in `each'
+sprockets (4.0.3) lib/sprockets/bundle.rb:31:in `call'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:84:in `call_processor'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:66:in `block in call_processors'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:65:in `reverse_each'
+sprockets (4.0.3) lib/sprockets/processor_utils.rb:65:in `call_processors'
+sprockets (4.0.3) lib/sprockets/loader.rb:182:in `load_from_unloaded'
+sprockets (4.0.3) lib/sprockets/loader.rb:59:in `block in load'
+sprockets (4.0.3) lib/sprockets/loader.rb:337:in `fetch_asset_from_dependency_cache'
+sprockets (4.0.3) lib/sprockets/loader.rb:43:in `load'
+sprockets (4.0.3) lib/sprockets/cached_environment.rb:44:in `load'
+sprockets (4.0.3) lib/sprockets/base.rb:81:in `find_asset'
+sprockets (4.0.3) lib/sprockets/base.rb:88:in `find_all_linked_assets'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `each'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `to_a'
+sprockets (4.0.3) lib/sprockets/manifest.rb:125:in `block (2 levels) in find'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:24:in `block in execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `block in synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/synchronization/mutex_lockable_object.rb:47:in `synchronize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/safe_task_executor.rb:19:in `execute'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/promise.rb:564:in `block in realize'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:363:in `run_task'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:352:in `block (3 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `loop'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:335:in `block (2 levels) in create_worker'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `catch'
+concurrent-ruby (1.1.9) lib/concurrent-ruby/concurrent/executor/ruby_thread_pool_executor.rb:334:in `block in create_worker'
+Started GET "/" for ::1 at 2022-03-02 21:22:23 -0600
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 315)
+  Rendered layout layouts/application.html.erb (Duration: 74.2ms | Allocations: 3515)
+Completed 500 Internal Server Error in 167ms (ActiveRecord: 0.0ms | Allocations: 6598)
+
+
+  
+ActionView::Template::Error (The asset "default.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "default", "data-turbo-track": "reload" %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2022-03-02 21:24:28 -0600
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 10.3ms | Allocations: 510)
+Completed 200 OK in 81ms (Views: 32.9ms | ActiveRecord: 0.0ms | Allocations: 3480)
+
+
+Started GET "/home" for ::1 at 2022-03-02 21:24:34 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 554.5ms | Allocations: 24555)
+Completed 200 OK in 590ms (Views: 577.3ms | ActiveRecord: 0.0ms | Allocations: 25587)
+
+
+Started GET "/" for ::1 at 2022-03-02 21:27:18 -0600
+  [1m[35m (5.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 315)
+  Rendered layout layouts/application.html.erb (Duration: 316.4ms | Allocations: 22842)
+Completed 200 OK in 407ms (Views: 344.5ms | ActiveRecord: 0.0ms | Allocations: 25975)
+
+
+Started GET "/" for ::1 at 2022-03-02 21:34:29 -0600
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 330.4ms | Allocations: 6987)
+  Rendered layout layouts/application.html.erb (Duration: 629.2ms | Allocations: 29242)
+Completed 200 OK in 715ms (Views: 655.2ms | ActiveRecord: 0.0ms | Allocations: 32374)
+
+
+Started GET "/" for ::1 at 2022-04-07 20:05:39 -0500
+  [1m[35m (24.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 353.0ms | Allocations: 5080)
+  Rendered layout layouts/application.html.erb (Duration: 1272.5ms | Allocations: 27209)
+Completed 200 OK in 1627ms (Views: 1389.0ms | ActiveRecord: 0.0ms | Allocations: 30341)
+
+
+Started GET "/" for ::1 at 2022-04-07 21:35:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 70.1ms | Allocations: 2800)
+  Rendered layout layouts/application.html.erb (Duration: 138.0ms | Allocations: 4119)
+Completed 200 OK in 207ms (Views: 178.1ms | Allocations: 4974)
+
+
+Started GET "/" for ::1 at 2022-04-07 21:39:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 3133)
+  Rendered layout layouts/application.html.erb (Duration: 46.7ms | Allocations: 4459)
+Completed 200 OK in 82ms (Views: 66.3ms | Allocations: 5403)
+
+
+Started GET "/" for ::1 at 2022-04-07 21:43:25 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 287.6ms | Allocations: 11954)
+  Rendered layout layouts/application.html.erb (Duration: 311.4ms | Allocations: 12060)
+Completed 500 Internal Server Error in 359ms (Allocations: 12863)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_controller' for #<ActionView::Base:0x0000000000dc50>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% home_controller.make_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:43:47 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 47.0ms | Allocations: 5204)
+  Rendered layout layouts/application.html.erb (Duration: 51.5ms | Allocations: 5299)
+Completed 500 Internal Server Error in 90ms (Allocations: 6084)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `make_request' for #<ActionView::Base:0x0000000000df70>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% make_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:44:37 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 32.1ms | Allocations: 3597)
+  Rendered layout layouts/application.html.erb (Duration: 37.9ms | Allocations: 3692)
+Completed 500 Internal Server Error in 72ms (Allocations: 4483)
+
+
+  
+ActionView::Template::Error (undefined method `index' for HomeController:Class):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% HomeController.index %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:44:51 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 32.6ms | Allocations: 3606)
+  Rendered layout layouts/application.html.erb (Duration: 36.4ms | Allocations: 3700)
+Completed 500 Internal Server Error in 67ms (Allocations: 4481)
+
+
+  
+ActionView::Template::Error (undefined method `make_request' for HomeController:Class
+Did you mean?  make_response!):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% HomeController.make_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:45:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 48.3ms | Allocations: 3594)
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 3688)
+Completed 500 Internal Server Error in 104ms (Allocations: 4469)
+
+
+  
+ActionView::Template::Error (undefined method `make_response' for HomeController:Class
+Did you mean?  make_response!):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% HomeController.make_response %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:45:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 29.9ms | Allocations: 1250)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 1345)
+Completed 500 Internal Server Error in 89ms (Allocations: 2135)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% HomeController.make_response! %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:47:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 45.5ms | Allocations: 1312)
+  Rendered layout layouts/application.html.erb (Duration: 52.6ms | Allocations: 1407)
+Completed 500 Internal Server Error in 100ms (Allocations: 2193)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+
+<input type="button" onclick="<% HomeController.make_response("AAPL")! %>">
+
+#
+
+# <%= form_with model: @home do |form| %>
+#     <div>
+#       <%= form.label :title %><br>
+#       <%= form.text_field :title %>
+#     </div>
+  
+#     <div>
+#       <%= form.label :body %><br>
+#       <%= form.text_area :body %>
+#     </div>
+  
+#     <div>
+#       <%= form.submit %>
+#     </div>
+#   <% end %>
+
+#   <form action="/articles" accept-charset="UTF-8" method="post">
+#   <input type="hidden" name="authenticity_token" value="...">
+
+#   <div>
+#     <label for="article_title">Title</label><br>
+#     <input type="text" name="article[title]" id="article_title">
+#   </div>
+
+#   <div>
+#     <label for="article_body">Body</label><br>
+#     <textarea name="article[body]" id="article_body"></textarea>
+#   </div>
+
+#   <div>
+#     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+#   </div>
+# </form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    
+3:    <input type="button" onclick="<% HomeController.make_response("AAPL")! %>">
+4:    
+5:    #
+6:    
+7:    # <%= form_with model: @home do |form| %>
+8:    #     <div>
+9:    #       <%= form.label :title %><br>
+10:    #       <%= form.text_field :title %>
+11:    #     </div>
+12:      
+13:    #     <div>
+14:    #       <%= form.label :body %><br>
+15:    #       <%= form.text_area :body %>
+16:    #     </div>
+17:      
+18:    #     <div>
+19:    #       <%= form.submit %>
+20:    #     </div>
+21:    #   <% end %>
+22:    
+23:    #   <form action="/articles" accept-charset="UTF-8" method="post">
+24:    #   <input type="hidden" name="authenticity_token" value="...">
+25:    
+26:    #   <div>
+27:    #     <label for="article_title">Title</label><br>
+28:    #     <input type="text" name="article[title]" id="article_title">
+29:    #   </div>
+30:    
+31:    #   <div>
+32:    #     <label for="article_body">Body</label><br>
+33:    #     <textarea name="article[body]" id="article_body"></textarea>
+34:    #   </div>
+35:    
+36:    #   <div>
+37:    #     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+38:    #   </div>
+39:    # </form>
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+Started GET "/" for ::1 at 2022-04-07 21:49:01 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 48.7ms | Allocations: 1299)
+  Rendered layout layouts/application.html.erb (Duration: 53.8ms | Allocations: 1394)
+Completed 500 Internal Server Error in 97ms (Allocations: 2177)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+
+<input type="button" onClick="<% HomeController.make_response('AAPL')! %>">
+
+#
+
+# <%= form_with model: @home do |form| %>
+#     <div>
+#       <%= form.label :title %><br>
+#       <%= form.text_field :title %>
+#     </div>
+  
+#     <div>
+#       <%= form.label :body %><br>
+#       <%= form.text_area :body %>
+#     </div>
+  
+#     <div>
+#       <%= form.submit %>
+#     </div>
+#   <% end %>
+
+#   <form action="/articles" accept-charset="UTF-8" method="post">
+#   <input type="hidden" name="authenticity_token" value="...">
+
+#   <div>
+#     <label for="article_title">Title</label><br>
+#     <input type="text" name="article[title]" id="article_title">
+#   </div>
+
+#   <div>
+#     <label for="article_body">Body</label><br>
+#     <textarea name="article[body]" id="article_body"></textarea>
+#   </div>
+
+#   <div>
+#     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+#   </div>
+# </form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    
+3:    <input type="button" onClick="<% HomeController.make_response('AAPL')! %>">
+4:    
+5:    #
+6:    
+7:    # <%= form_with model: @home do |form| %>
+8:    #     <div>
+9:    #       <%= form.label :title %><br>
+10:    #       <%= form.text_field :title %>
+11:    #     </div>
+12:      
+13:    #     <div>
+14:    #       <%= form.label :body %><br>
+15:    #       <%= form.text_area :body %>
+16:    #     </div>
+17:      
+18:    #     <div>
+19:    #       <%= form.submit %>
+20:    #     </div>
+21:    #   <% end %>
+22:    
+23:    #   <form action="/articles" accept-charset="UTF-8" method="post">
+24:    #   <input type="hidden" name="authenticity_token" value="...">
+25:    
+26:    #   <div>
+27:    #     <label for="article_title">Title</label><br>
+28:    #     <input type="text" name="article[title]" id="article_title">
+29:    #   </div>
+30:    
+31:    #   <div>
+32:    #     <label for="article_body">Body</label><br>
+33:    #     <textarea name="article[body]" id="article_body"></textarea>
+34:    #   </div>
+35:    
+36:    #   <div>
+37:    #     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+38:    #   </div>
+39:    # </form>
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+app/views/home/index.html.erb:3: syntax error, unexpected '!', expecting `end'
+Started GET "/" for ::1 at 2022-04-07 21:51:03 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 27.3ms | Allocations: 1215)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 1309)
+Completed 500 Internal Server Error in 72ms (Allocations: 2219)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.make_response! %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:51:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 938)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1032)
+Completed 500 Internal Server Error in 15ms (Allocations: 1622)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1)):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.make_response! %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:54:45 -0500
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 38.1ms | Allocations: 4158)
+  Rendered layout layouts/application.html.erb (Duration: 42.6ms | Allocations: 4273)
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms | Allocations: 7343)
+
+
+  
+ActionView::Template::Error (private method `send_request' called for HomeController:Class):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:57:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 32.7ms | Allocations: 3304)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | Allocations: 3399)
+Completed 500 Internal Server Error in 55ms (Allocations: 3992)
+
+
+  
+ActionView::Template::Error (private method `send_request' called for HomeController:Class):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:58:42 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 3016)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 3111)
+Completed 500 Internal Server Error in 30ms (Allocations: 3705)
+
+
+  
+ActionView::Template::Error (uninitialized constant Net::HTTP
+
+    request = Net::HTTP::Post.new(url)
+                 ^^^^^^):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/home_controller.rb:6:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 21:59:33 -0500
+  
+NameError (uninitialized constant Net::HTTP
+
+  Net::HTTP.start(uri.host, uri.port, use_ssl: true)
+     ^^^^^^):
+  
+app/controllers/home_controller.rb:2:in `<class:HomeController>'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:01:43 -0500
+  
+NameError (uninitialized constant Net::HTTP
+
+  Net::HTTP.start(uri.host, uri.port, use_ssl: true)
+     ^^^^^^):
+  
+app/controllers/home_controller.rb:2:in `<class:HomeController>'
+app/controllers/home_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:03:00 -0500
+  
+NameError (undefined local variable or method `uri' for HomeController:Class
+
+  Net::HTTP.start(uri.host, uri.port, use_ssl: true)
+                  ^^^
+Did you mean?  URI):
+  
+app/controllers/home_controller.rb:4:in `<class:HomeController>'
+app/controllers/home_controller.rb:3:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:03:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 73.1ms | Allocations: 4606)
+  Rendered layout layouts/application.html.erb (Duration: 329.7ms | Allocations: 26691)
+Completed 200 OK in 341ms (Views: 333.9ms | Allocations: 27344)
+
+
+Started GET "/" for ::1 at 2022-04-07 22:08:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2935)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 4101)
+Completed 200 OK in 40ms (Views: 31.5ms | Allocations: 4724)
+
+
+Started GET "/" for ::1 at 2022-04-07 22:09:28 -0500
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 peeraddr=127.0.0.1:8050 state=error: wrong version number):
+  
+app/controllers/home_controller.rb:11:in `<class:HomeController>'
+app/controllers/home_controller.rb:5:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:11:26 -0500
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 peeraddr=127.0.0.1:8050 state=error: wrong version number):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:14:13 -0500
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 peeraddr=127.0.0.1:8050 state=error: wrong version number):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:16:24 -0500
+  
+OpenSSL::SSL::SSLError (SSL_connect returned=1 errno=0 peeraddr=127.0.0.1:8050 state=error: wrong version number):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:20:52 -0500
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:23:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2959)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 4125)
+Completed 200 OK in 27ms (Views: 21.7ms | Allocations: 4748)
+
+
+Started GET "/" for ::1 at 2022-04-07 22:25:31 -0500
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:28:33 -0500
+  
+ArgumentError (wrong number of arguments (given 1, expected 2..4)):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:29:38 -0500
+  
+NoMethodError (undefined method `empty?' for #<Net::HTTP::Post POST>
+
+      raise ArgumentError, "HTTP request path is empty" if uri_or_path.empty?
+                                                                      ^^^^^^^):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:30:47 -0500
+  
+NoMethodError (undefined method `empty?' for #<Net::HTTP::Post POST>
+
+      raise ArgumentError, "HTTP request path is empty" if uri_or_path.empty?
+                                                                      ^^^^^^^):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:7:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:31:32 -0500
+  
+NoMethodError (undefined method `empty?' for #<Net::HTTP::Post POST>
+
+      raise ArgumentError, "HTTP request path is empty" if uri_or_path.empty?
+                                                                      ^^^^^^^):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:6:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:32:56 -0500
+  
+ArgumentError (wrong number of arguments (given 1, expected 2..4)):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:6:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:33:17 -0500
+  
+NoMethodError (undefined method `empty?' for #<Net::HTTP::Post POST>
+
+      raise ArgumentError, "HTTP request path is empty" if uri_or_path.empty?
+                                                                      ^^^^^^^):
+  
+app/controllers/home_controller.rb:13:in `<class:HomeController>'
+app/controllers/home_controller.rb:6:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:36:09 -0500
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:12:in `<class:HomeController>'
+app/controllers/home_controller.rb:6:in `<main>'
+Started GET "/" for ::1 at 2022-04-07 22:38:23 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 3040)
+  Rendered layout layouts/application.html.erb (Duration: 32.0ms | Allocations: 4206)
+Completed 200 OK in 48ms (Views: 36.5ms | Allocations: 4829)
+
+
+Started GET "/" for ::1 at 2022-04-07 22:41:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 120010.7ms | Allocations: 2217)
+  Rendered layout layouts/application.html.erb (Duration: 120015.1ms | Allocations: 2311)
+Completed 500 Internal Server Error in 120028ms (Allocations: 2902)
+
+
+  
+ActionView::Template::Error (Net::ReadTimeout with #<Socket:(closed)>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/home_controller.rb:13:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 22:55:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 42.6ms | Allocations: 3304)
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 3398)
+Completed 500 Internal Server Error in 74ms (Allocations: 3987)
+
+
+  
+ActionView::Template::Error (private method `send_request' called for HomeController:Class):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:00:19 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 53.4ms | Allocations: 3344)
+  Rendered layout layouts/application.html.erb (Duration: 92.3ms | Allocations: 4672)
+Completed 200 OK in 148ms (Views: 131.3ms | Allocations: 5491)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:00:31 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 3071)
+  Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 4230)
+Completed 200 OK in 46ms (Views: 34.7ms | Allocations: 4853)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:01:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 34.1ms | Allocations: 4745)
+  Rendered layout layouts/application.html.erb (Duration: 38.8ms | Allocations: 4839)
+Completed 500 Internal Server Error in 85ms (Allocations: 5654)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `http' for #<ActionView::Base:0x00000000066a58>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/home_controller.rb:9:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:01:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 4418)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4512)
+Completed 500 Internal Server Error in 22ms (Allocations: 5101)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `http' for #<ActionView::Base:0x0000000006a7e8>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/home_controller.rb:9:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:04:24 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 23.2ms | Allocations: 3379)
+  Rendered layout layouts/application.html.erb (Duration: 55.8ms | Allocations: 4707)
+Completed 200 OK in 96ms (Views: 78.5ms | Allocations: 5526)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:04:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 84197.1ms | Allocations: 2435)
+  Rendered layout layouts/application.html.erb (Duration: 84200.8ms | Allocations: 2529)
+Completed 500 Internal Server Error in 84241ms (Allocations: 3318)
+
+
+  
+ActionView::Template::Error (An existing connection was forcibly closed by the remote host.):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% ApplicationController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/application_controller.rb:8:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:10:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 961)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 1055)
+Completed 500 Internal Server Error in 28ms (Allocations: 1646)
+
+
+  
+ActionView::Template::Error (getaddrinfo: No such host is known. ):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% ApplicationController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/application_controller.rb:16:in `initialize'
+app/controllers/application_controller.rb:16:in `new'
+app/controllers/application_controller.rb:16:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:15:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 78314.9ms | Allocations: 2105)
+  Rendered layout layouts/application.html.erb (Duration: 78318.7ms | Allocations: 2199)
+Completed 500 Internal Server Error in 78334ms (Allocations: 2788)
+
+
+  
+ActionView::Template::Error (An existing connection was forcibly closed by the remote host.):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% ApplicationController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/application_controller.rb:10:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:19:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 3153)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 4513)
+Completed 200 OK in 42ms (Views: 32.2ms | Allocations: 5133)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:20:26 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.5ms | Allocations: 3171)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 4337)
+Completed 200 OK in 35ms (Views: 28.1ms | Allocations: 4960)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:20:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 65532.5ms | Allocations: 1979)
+  Rendered layout layouts/application.html.erb (Duration: 65536.7ms | Allocations: 2073)
+Completed 500 Internal Server Error in 65553ms (Allocations: 2662)
+
+
+  
+ActionView::Template::Error (An existing connection was forcibly closed by the remote host.):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% ApplicationController.send_request %>">
+    4: 
+    5: #
+    6: 
+  
+app/controllers/application_controller.rb:11:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:26:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.6ms | Allocations: 3138)
+  Rendered layout layouts/application.html.erb (Duration: 31.3ms | Allocations: 4304)
+Completed 200 OK in 46ms (Views: 36.4ms | Allocations: 4927)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:26:34 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3133)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 4299)
+Completed 200 OK in 29ms (Views: 24.1ms | Allocations: 4922)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:36:14 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 2379)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 2473)
+Completed 500 Internal Server Error in 70ms (Allocations: 3385)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"send_request", :controller=>"home_controller"}):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= button_to "Confirm", controller: "home_controller", action: "send_request"%>>
+    4: 
+    5: <input type="button" onClick="<% ApplicationController.send_request %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:36:46 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2053)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2147)
+Completed 500 Internal Server Error in 22ms (Allocations: 2736)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"send_request", :controller=>"home_controller"}):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= button_to "Confirm", controller: "home_controller", action: "send_request"%>>
+    4: 
+    5: <input type="button" onClick="<% ApplicationController.send_request %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:38:20 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 2061)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 2155)
+Completed 500 Internal Server Error in 35ms (Allocations: 2744)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"send_request", :controller=>"home_controller"}):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= button_to "Confirm", controller: "home_controller", action: "send_request"%>>
+    4: 
+    5: <input type="button" onClick="<% ApplicationController.send_request %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:38:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.0ms | Allocations: 2101)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 2195)
+Completed 500 Internal Server Error in 36ms (Allocations: 2784)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"send_request", :controller=>"home_controller"}):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= button_to "Confirm", controller: "home_controller", action: "send_request"%>>
+    4: 
+    5: <input type="button" onClick="<% ApplicationController.send_request %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:42:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 47.4ms | Allocations: 2810)
+  Rendered layout layouts/application.html.erb (Duration: 82.7ms | Allocations: 4138)
+Completed 200 OK in 130ms (Views: 117.3ms | Allocations: 4957)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:44:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 26.4ms | Allocations: 2790)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 4108)
+Completed 200 OK in 84ms (Views: 72.4ms | Allocations: 4923)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:44:30 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3180)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 4346)
+Completed 200 OK in 27ms (Views: 20.7ms | Allocations: 4969)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:47:29 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 45.7ms | Allocations: 5229)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | Allocations: 5323)
+Completed 500 Internal Server Error in 87ms (Allocations: 6233)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<ActionView::Base:0x0000000009d300>
+Did you mean?  super):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% user.hello %>">
+    4: 
+    5: <input type="button" onClick="<% HomeController.send_request() %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:48:44 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 4932)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 5026)
+Completed 500 Internal Server Error in 31ms (Allocations: 5615)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `user' for #<ActionView::Base:0x000000000a13b0>
+Did you mean?  super):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% user.hello %>">
+    4: 
+    5: <input type="button" onClick="<% HomeController.send_request() %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:49:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 40.7ms | Allocations: 3649)
+  Rendered layout layouts/application.html.erb (Duration: 44.5ms | Allocations: 3743)
+Completed 500 Internal Server Error in 77ms (Allocations: 4524)
+
+
+  
+ActionView::Template::Error (undefined method `user' for HomeController:Class
+Did you mean?  use):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% HomeController.user.hello %>">
+    4: 
+    5: <input type="button" onClick="<% HomeController.send_request() %>">
+    6: 
+  
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:51:48 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 73797.7ms | Allocations: 2380)
+  Rendered layout layouts/application.html.erb (Duration: 73802.4ms | Allocations: 2474)
+Completed 500 Internal Server Error in 73850ms (Allocations: 3384)
+
+
+  
+ActionView::Template::Error (An existing connection was forcibly closed by the remote host.):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onClick="<% send_request %>">
+    4: 
+    5: <input type="button" onClick="<% HomeController.send_request() %>">
+    6: 
+  
+app/helpers/application_helper.rb:9:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:55:15 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 70227.9ms | Allocations: 2807)
+  Rendered layout layouts/application.html.erb (Duration: 70232.9ms | Allocations: 2901)
+Completed 500 Internal Server Error in 70273ms (Allocations: 3809)
+
+
+  
+ActionView::Template::Error (An existing connection was forcibly closed by the remote host.):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <input type="button" onclick="<% puts "sup" %>">
+    4: 
+    5: 
+    6: #
+  
+app/helpers/application_helper.rb:9:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-07 23:56:33 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 3533)
+  Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 4861)
+Completed 200 OK in 72ms (Views: 58.5ms | Allocations: 5679)
+
+
+Started GET "/" for ::1 at 2022-04-07 23:57:38 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-04-07 23:58:06 -0500
+  Rendered home/index.html.erb within layouts/application (Duration: 120042.2ms | Allocations: 3943)
+  Rendered layout layouts/application.html.erb (Duration: 120048.3ms | Allocations: 4036)
+Completed 500 Internal Server Error in 120078ms (Allocations: 4951)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8050 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - user specified timeout)):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+    4: <input type="button" onclick="<% send_request %>">
+    5: 
+    6: 
+  
+app/helpers/application_helper.rb:10:in `send_request'
+app/views/home/index.html.erb:3
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 120015.0ms | Allocations: 2418)
+  Rendered layout layouts/application.html.erb (Duration: 120018.2ms | Allocations: 2513)
+Completed 500 Internal Server Error in 120030ms (Allocations: 3107)
+
+
+  
+ActionView::Template::Error (Failed to open TCP connection to localhost:8050 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. - user specified timeout)):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: 
+    3: <%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+    4: <input type="button" onclick="<% send_request %>">
+    5: 
+    6: 
+  
+app/helpers/application_helper.rb:10:in `send_request'
+app/views/home/index.html.erb:3
+Started GET "/" for ::1 at 2022-04-08 00:01:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1332)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 1427)
+Completed 500 Internal Server Error in 45ms (Allocations: 2213)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+
+<%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+<input type="button" onclick="<% send_request %>">
+
+
+#
+
+# <%= form_with model: @home do |form| %>
+#     <div>
+#       <%= form.label :title %><br>
+#       <%= form.text_field :title %>
+#     </div>
+  
+#     <div>
+#       <%= form.label :body %><br>
+#       <%= form.text_area :body %>
+#     </div>
+  
+#     <div>
+#       <%= form.submit %>
+#     </div>
+#   <% end %>
+
+#   <form action="/articles" accept-charset="UTF-8" method="post">
+#   <input type="hidden" name="authenticity_token" value="...">
+
+#   <div>
+#     <label for="article_title">Title</label><br>
+#     <input type="text" name="article[title]" id="article_title">
+#   </div>
+
+#   <div>
+#     <label for="article_body">Body</label><br>
+#     <textarea name="article[body]" id="article_body"></textarea>
+#   </div>
+
+#   <div>
+#     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+#   </div>
+# </form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    
+3:    <%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+4:    <input type="button" onclick="<% send_request %>">
+5:    
+6:    
+7:    #
+8:    
+9:    # <%= form_with model: @home do |form| %>
+10:    #     <div>
+11:    #       <%= form.label :title %><br>
+12:    #       <%= form.text_field :title %>
+13:    #     </div>
+14:      
+15:    #     <div>
+16:    #       <%= form.label :body %><br>
+17:    #       <%= form.text_area :body %>
+18:    #     </div>
+19:      
+20:    #     <div>
+21:    #       <%= form.submit %>
+22:    #     </div>
+23:    #   <% end %>
+24:    
+25:    #   <form action="/articles" accept-charset="UTF-8" method="post">
+26:    #   <input type="hidden" name="authenticity_token" value="...">
+27:    
+28:    #   <div>
+29:    #     <label for="article_title">Title</label><br>
+30:    #     <input type="text" name="article[title]" id="article_title">
+31:    #   </div>
+32:    
+33:    #   <div>
+34:    #     <label for="article_body">Body</label><br>
+35:    #     <textarea name="article[body]" id="article_body"></textarea>
+36:    #   </div>
+37:    
+38:    #   <div>
+39:    #     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+40:    #   </div>
+41:    # </form>
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+Started GET "/" for ::1 at 2022-04-08 00:03:03 -0500
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 1813)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 1926)
+Completed 500 Internal Server Error in 135ms (ActiveRecord: 0.0ms | Allocations: 4997)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+
+<%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+<input type="button" onclick="<% send_request %>">
+
+
+#
+
+# <%= form_with model: @home do |form| %>
+#     <div>
+#       <%= form.label :title %><br>
+#       <%= form.text_field :title %>
+#     </div>
+  
+#     <div>
+#       <%= form.label :body %><br>
+#       <%= form.text_area :body %>
+#     </div>
+  
+#     <div>
+#       <%= form.submit %>
+#     </div>
+#   <% end %>
+
+#   <form action="/articles" accept-charset="UTF-8" method="post">
+#   <input type="hidden" name="authenticity_token" value="...">
+
+#   <div>
+#     <label for="article_title">Title</label><br>
+#     <input type="text" name="article[title]" id="article_title">
+#   </div>
+
+#   <div>
+#     <label for="article_body">Body</label><br>
+#     <textarea name="article[body]" id="article_body"></textarea>
+#   </div>
+
+#   <div>
+#     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+#   </div>
+# </form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    
+3:    <%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+4:    <input type="button" onclick="<% send_request %>">
+5:    
+6:    
+7:    #
+8:    
+9:    # <%= form_with model: @home do |form| %>
+10:    #     <div>
+11:    #       <%= form.label :title %><br>
+12:    #       <%= form.text_field :title %>
+13:    #     </div>
+14:      
+15:    #     <div>
+16:    #       <%= form.label :body %><br>
+17:    #       <%= form.text_area :body %>
+18:    #     </div>
+19:      
+20:    #     <div>
+21:    #       <%= form.submit %>
+22:    #     </div>
+23:    #   <% end %>
+24:    
+25:    #   <form action="/articles" accept-charset="UTF-8" method="post">
+26:    #   <input type="hidden" name="authenticity_token" value="...">
+27:    
+28:    #   <div>
+29:    #     <label for="article_title">Title</label><br>
+30:    #     <input type="text" name="article[title]" id="article_title">
+31:    #   </div>
+32:    
+33:    #   <div>
+34:    #     <label for="article_body">Body</label><br>
+35:    #     <textarea name="article[body]" id="article_body"></textarea>
+36:    #   </div>
+37:    
+38:    #   <div>
+39:    #     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article">
+40:    #   </div>
+41:    # </form>
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+Started GET "/" for ::1 at 2022-04-08 00:05:11 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 1302)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 1398)
+Completed 500 Internal Server Error in 74ms (Allocations: 2312)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+
+<%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+<input type="button" onclick="<% testy %>">
+
+
+#
+
+# <%= form_with model: @home do |form| %>
+#     <div>
+#       <%= form.label :title %><br>
+#       <%= form.text_field :title %>
+#     </div>
+  
+#     <div>
+#       <%= form.label :body %><br>
+#       <%= form.text_area :body %>
+#     </div>
+  
+#     <div>
+#       <%= form.submit %>
+#     </div>
+#   <% end %>
+
+#   <form action="/articles" accept-charset="UTF-8" method="post">
+#   <input type="hidden" name="authenticity_token" value="...">
+
+#   <div>
+#     <label for="article_title">Title</label><br>
+#     <input type="text" name="article[title]" id="article_title">
+#   </div>
+
+#   <div>
+#     <label for="article_body">Body</label><br>
+#     <textarea name="article[body]" id="article_body"></textarea>
+#   </div>
+
+#   <div>
+#     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+#   </div>
+# </form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    
+3:    <%= link_to 'Click Me', <some_path>, onclick="console.log('foo')" %>
+4:    <input type="button" onclick="<% testy %>">
+5:    
+6:    
+7:    #
+8:    
+9:    # <%= form_with model: @home do |form| %>
+10:    #     <div>
+11:    #       <%= form.label :title %><br>
+12:    #       <%= form.text_field :title %>
+13:    #     </div>
+14:      
+15:    #     <div>
+16:    #       <%= form.label :body %><br>
+17:    #       <%= form.text_area :body %>
+18:    #     </div>
+19:      
+20:    #     <div>
+21:    #       <%= form.submit %>
+22:    #     </div>
+23:    #   <% end %>
+24:    
+25:    #   <form action="/articles" accept-charset="UTF-8" method="post">
+26:    #   <input type="hidden" name="authenticity_token" value="...">
+27:    
+28:    #   <div>
+29:    #     <label for="article_title">Title</label><br>
+30:    #     <input type="text" name="article[title]" id="article_title">
+31:    #   </div>
+32:    
+33:    #   <div>
+34:    #     <label for="article_body">Body</label><br>
+35:    #     <textarea name="article[body]" id="article_body"></textarea>
+36:    #   </div>
+37:    
+38:    #   <div>
+39:    #     <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+40:    #   </div>
+41:    # </form>
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected '<'
+Started GET "/" for ::1 at 2022-04-08 00:05:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 95.9ms | Allocations: 4890)
+  Rendered layout layouts/application.html.erb (Duration: 411.8ms | Allocations: 27023)
+Completed 200 OK in 444ms (Views: 434.0ms | Allocations: 27878)
+
+
+Started POST "/articles" for ::1 at 2022-04-08 00:05:35 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/articles"):
+  
+Started POST "/articles" for ::1 at 2022-04-08 00:05:35 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/articles"):
+  
+Started POST "/" for ::1 at 2022-04-08 00:08:09 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:08:36 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 37.9ms | Allocations: 2814)
+  Rendered layout layouts/application.html.erb (Duration: 78.2ms | Allocations: 4140)
+Completed 200 OK in 123ms (Views: 107.5ms | Allocations: 4959)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:12:32 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 31.8ms | Allocations: 2848)
+  Rendered layout layouts/application.html.erb (Duration: 51.4ms | Allocations: 4166)
+Completed 200 OK in 89ms (Views: 77.4ms | Allocations: 4984)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:12:54 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 53.8ms | Allocations: 2812)
+  Rendered layout layouts/application.html.erb (Duration: 95.2ms | Allocations: 4130)
+Completed 200 OK in 151ms (Views: 131.3ms | Allocations: 4945)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:13:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 41.8ms | Allocations: 2839)
+  Rendered layout layouts/application.html.erb (Duration: 63.1ms | Allocations: 4157)
+Completed 200 OK in 89ms (Views: 81.2ms | Allocations: 4972)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:13:48 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 30.5ms | Allocations: 2840)
+  Rendered layout layouts/application.html.erb (Duration: 49.3ms | Allocations: 4158)
+Completed 200 OK in 84ms (Views: 74.4ms | Allocations: 4973)
+
+
+Started POST "/articles" for ::1 at 2022-04-08 00:14:42 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/articles"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:18:40 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 55.3ms | Allocations: 2857)
+  Rendered layout layouts/application.html.erb (Duration: 93.6ms | Allocations: 4183)
+Completed 200 OK in 128ms (Views: 116.7ms | Allocations: 4992)
+
+
+Started POST "/articles" for ::1 at 2022-04-08 00:18:48 -0500
+  
+ActionController::RoutingError (No route matches [POST] "/articles"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:21:18 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 82.8ms | Allocations: 5311)
+  Rendered layout layouts/application.html.erb (Duration: 87.3ms | Allocations: 5405)
+Completed 500 Internal Server Error in 123ms (Allocations: 6319)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_action_path' for #<ActionView::Base:0x00000000012d40>):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: <%= link_to 'send_request', home_action_path, method: :post %>
+    3: 
+    4: <input type="button" onclick="<% testy %>">
+    5: <a href='#' onClick='send_request()'>Click Me</a>
+  
+app/views/home/index.html.erb:2
+Started GET "/" for ::1 at 2022-04-08 00:22:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 69.3ms | Allocations: 2972)
+  Rendered layout layouts/application.html.erb (Duration: 165.6ms | Allocations: 4330)
+Completed 200 OK in 179ms (Views: 173.5ms | Allocations: 4951)
+
+
+Started GET "/home/action" for ::1 at 2022-04-08 00:22:32 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/action"):
+  
+Started GET "/home/action" for ::1 at 2022-04-08 00:37:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/action"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:39:17 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 68.7ms | Allocations: 4965)
+  Rendered layout layouts/application.html.erb (Duration: 70.7ms | Allocations: 5059)
+Completed 500 Internal Server Error in 87ms (Allocations: 5648)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_action_path' for #<ActionView::Base:0x0000000001a680>
+Did you mean?  home_send_request_path):
+    1: <h1>Welcome to Strat Backtester<h1>
+    2: <%= link_to 'send_request', home_action_path, method: :post %>
+    3: 
+    4: <input type="button" onclick="<% testy %>">
+    5: <a href='#' onClick='send_request()'>Click Me</a>
+  
+app/views/home/index.html.erb:2
+Started GET "/" for ::1 at 2022-04-08 00:40:16 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 60.3ms | Allocations: 3350)
+  Rendered layout layouts/application.html.erb (Duration: 105.1ms | Allocations: 4678)
+Completed 200 OK in 137ms (Views: 126.2ms | Allocations: 5497)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:40:22 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/send_request"):
+  
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:40:45 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/send_request"):
+  
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:41:42 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/send_request"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:41:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 37.5ms | Allocations: 2983)
+  Rendered layout layouts/application.html.erb (Duration: 70.0ms | Allocations: 4149)
+Completed 200 OK in 89ms (Views: 75.7ms | Allocations: 4772)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:41:54 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/send_request"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:43:07 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 2991)
+  Rendered layout layouts/application.html.erb (Duration: 39.1ms | Allocations: 4157)
+Completed 200 OK in 52ms (Views: 44.7ms | Allocations: 4780)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:43:18 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/home/send_request"):
+  
+Started GET "/" for ::1 at 2022-04-08 00:43:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 2993)
+  Rendered layout layouts/application.html.erb (Duration: 35.0ms | Allocations: 4159)
+Completed 200 OK in 45ms (Views: 39.1ms | Allocations: 4782)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:44:05 -0500
+  
+AbstractController::ActionNotFound (The action 'send_request' could not be found for HomeController):
+  
+actionpack (7.0.2.2) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.2.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:850:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/cookies.rb:693:in `call'
+activerecord (7.0.2.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.2.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.2.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-04-08 00:44:59 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2985)
+  Rendered layout layouts/application.html.erb (Duration: 24.6ms | Allocations: 4151)
+Completed 200 OK in 33ms (Views: 27.8ms | Allocations: 4774)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:45:20 -0500
+Processing by HomeController#send_request as HTML
+Completed 406 Not Acceptable in 9ms (Allocations: 621)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#send_request is missing a template for request formats: text/html):
+  
+actionpack (7.0.2.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.2.2) lib/abstract_controller/base.rb:214:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.2.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.2.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.2.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.2.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.2.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.2.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.2.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.2.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.2.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.2.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.2.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:850:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/cookies.rb:693:in `call'
+activerecord (7.0.2.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.2.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.2.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-04-08 00:47:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 18.4ms | Allocations: 2898)
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | Allocations: 4223)
+Completed 200 OK in 75ms (Views: 66.2ms | Allocations: 5026)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:47:33 -0500
+Processing by HomeController#send_request as HTML
+Completed 406 Not Acceptable in 30ms (Allocations: 693)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#send_request is missing a template for request formats: text/html):
+  
+actionpack (7.0.2.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.2.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.2.2) lib/abstract_controller/base.rb:214:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.2.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.2.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.2.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.2.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.2.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.2.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.2.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.2.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.2.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.2.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.2.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.2.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.2.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.2.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.2.2) lib/action_dispatch/routing/route_set.rb:850:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/cookies.rb:693:in `call'
+activerecord (7.0.2.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.2.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.2.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.2.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.2.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.2.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.2) lib/puma/configuration.rb:252:in `call'
+puma (5.6.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.2) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.2) lib/puma/server.rb:441:in `process_client'
+puma (5.6.2) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-04-08 00:49:41 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.3ms | Allocations: 2889)
+  Rendered layout layouts/application.html.erb (Duration: 44.0ms | Allocations: 4214)
+Completed 200 OK in 86ms (Views: 72.6ms | Allocations: 5018)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:49:46 -0500
+Processing by HomeController#send_request as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/send_request.html.erb within layouts/application
+  Rendered home/send_request.html.erb within layouts/application (Duration: 0.8ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 1266)
+Completed 200 OK in 24ms (Views: 16.4ms | Allocations: 1613)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:52:08 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 23.7ms | Allocations: 1356)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 1451)
+Completed 500 Internal Server Error in 66ms (Allocations: 2221)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+<%= link_to 'send_request', home_send_request_path, method: :post, onClick='send_request()%>
+
+<input type="button" onclick="<% testy %>">
+<a href='#' onClick='send_request()'>Click Me</a>
+
+
+
+<%= form_with model: @home do |form| %>
+    <div>
+      <%= form.label :title %><br>
+      <%= form.text_field :title %>
+    </div>
+  
+    <div>
+      <%= form.label :body %><br>
+      <%= form.text_area :body %>
+    </div>
+  
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+<input type="button" onclick="<% testy %>">
+  <form action="/articles" accept-charset="UTF-8" method="post">
+  <input type="hidden" name="authenticity_token" value="...">
+
+  <div>
+    <label for="article_title">Title</label><br>
+    <input type="text" name="article[title]" id="article_title">
+  </div>
+
+  <div>
+    <label for="article_body">Body</label><br>
+    <textarea name="article[body]" id="article_body"></textarea>
+  </div>
+
+  <div>
+    <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+  </div>
+</form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    <%= link_to 'send_request', home_send_request_path, method: :post, onClick='send_request()%>
+3:    
+4:    <input type="button" onclick="<% testy %>">
+5:    <a href='#' onClick='send_request()'>Click Me</a>
+6:    
+7:    
+8:    
+9:    <%= form_with model: @home do |form| %>
+10:        <div>
+11:          <%= form.label :title %><br>
+12:          <%= form.text_field :title %>
+13:        </div>
+14:      
+15:        <div>
+16:          <%= form.label :body %><br>
+17:          <%= form.text_area :body %>
+18:        </div>
+19:      
+20:        <div>
+21:          <%= form.submit %>
+22:        </div>
+23:      <% end %>
+24:    <input type="button" onclick="<% testy %>">
+25:      <form action="/articles" accept-charset="UTF-8" method="post">
+26:      <input type="hidden" name="authenticity_token" value="...">
+27:    
+28:      <div>
+29:        <label for="article_title">Title</label><br>
+30:        <input type="text" name="article[title]" id="article_title">
+31:      </div>
+32:    
+33:      <div>
+34:        <label for="article_body">Body</label><br>
+35:        <textarea name="article[body]" id="article_body"></textarea>
+36:      </div>
+37:    
+38:      <div>
+39:        <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+40:      </div>
+41:    </form>
+  
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:2: syntax error, unexpected '\n', expecting =>
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+Started GET "/" for ::1 at 2022-04-08 00:52:52 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 1340)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 1435)
+Completed 500 Internal Server Error in 71ms (Allocations: 2222)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>Welcome to Strat Backtester<h1>
+<%= link_to 'send_request', home_send_request_path, method: :post>
+
+<input type="button" onclick="<% testy %>">
+<a href='#' onClick='send_request()'>Click Me</a>
+
+
+
+<%= form_with model: @home do |form| %>
+    <div>
+      <%= form.label :title %><br>
+      <%= form.text_field :title %>
+    </div>
+  
+    <div>
+      <%= form.label :body %><br>
+      <%= form.text_area :body %>
+    </div>
+  
+    <div>
+      <%= form.submit %>
+    </div>
+  <% end %>
+<input type="button" onclick="<% testy %>">
+  <form action="/articles" accept-charset="UTF-8" method="post">
+  <input type="hidden" name="authenticity_token" value="...">
+
+  <div>
+    <label for="article_title">Title</label><br>
+    <input type="text" name="article[title]" id="article_title">
+  </div>
+
+  <div>
+    <label for="article_body">Body</label><br>
+    <textarea name="article[body]" id="article_body"></textarea>
+  </div>
+
+  <div>
+    <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+  </div>
+</form>
+):
+1:    <h1>Welcome to Strat Backtester<h1>
+2:    <%= link_to 'send_request', home_send_request_path, method: :post>
+3:    
+4:    <input type="button" onclick="<% testy %>">
+5:    <a href='#' onClick='send_request()'>Click Me</a>
+6:    
+7:    
+8:    
+9:    <%= form_with model: @home do |form| %>
+10:        <div>
+11:          <%= form.label :title %><br>
+12:          <%= form.text_field :title %>
+13:        </div>
+14:      
+15:        <div>
+16:          <%= form.label :body %><br>
+17:          <%= form.text_area :body %>
+18:        </div>
+19:      
+20:        <div>
+21:          <%= form.submit %>
+22:        </div>
+23:      <% end %>
+24:    <input type="button" onclick="<% testy %>">
+25:      <form action="/articles" accept-charset="UTF-8" method="post">
+26:      <input type="hidden" name="authenticity_token" value="...">
+27:    
+28:      <div>
+29:        <label for="article_title">Title</label><br>
+30:        <input type="text" name="article[title]" id="article_title">
+31:      </div>
+32:    
+33:      <div>
+34:        <label for="article_body">Body</label><br>
+35:        <textarea name="article[body]" id="article_body"></textarea>
+36:      </div>
+37:    
+38:      <div>
+39:        <input type="submit" name="commit" value="Create Article" data-disable-with="Create Article" onclick="<% testy %>">
+40:      </div>
+41:    </form>
+  
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+app/views/home/index.html.erb:4: syntax error, unexpected '<'
+app/views/home/index.html.erb:4: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected '<'
+app/views/home/index.html.erb:5: syntax error, unexpected backslash
+app/views/home/index.html.erb:43: syntax error, unexpected `end', expecting ')'
+Started GET "/" for ::1 at 2022-04-08 00:53:50 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 25.3ms | Allocations: 2889)
+  Rendered layout layouts/application.html.erb (Duration: 67.2ms | Allocations: 4214)
+Completed 200 OK in 123ms (Views: 103.6ms | Allocations: 5023)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:53:57 -0500
+Processing by HomeController#send_request as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/send_request.html.erb within layouts/application
+  Rendered home/send_request.html.erb within layouts/application (Duration: 1.2ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 1287)
+Completed 200 OK in 36ms (Views: 24.2ms | Allocations: 1635)
+
+
+Started GET "/" for ::1 at 2022-04-08 00:54:05 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 3022)
+  Rendered layout layouts/application.html.erb (Duration: 33.0ms | Allocations: 4188)
+Completed 200 OK in 45ms (Views: 37.4ms | Allocations: 4811)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 00:54:20 -0500
+Processing by HomeController#send_request as HTML
+Completed 500 Internal Server Error in 120026ms (Allocations: 1700)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:15:in `send_request'
+Started GET "/" for ::1 at 2022-04-08 01:03:55 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 48.8ms | Allocations: 2886)
+  Rendered layout layouts/application.html.erb (Duration: 79.0ms | Allocations: 4211)
+Completed 200 OK in 125ms (Views: 109.2ms | Allocations: 5015)
+
+
+Started GET "/" for ::1 at 2022-04-08 01:05:49 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 70.0ms | Allocations: 2930)
+  Rendered layout layouts/application.html.erb (Duration: 105.8ms | Allocations: 4248)
+Completed 200 OK in 143ms (Views: 128.4ms | Allocations: 5063)
+
+
+Started GET "/" for ::1 at 2022-04-08 01:06:09 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 71.6ms | Allocations: 2891)
+  Rendered layout layouts/application.html.erb (Duration: 101.4ms | Allocations: 4209)
+Completed 200 OK in 136ms (Views: 124.1ms | Allocations: 5024)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 01:06:12 -0500
+Processing by HomeController#send_request as HTML
+Started GET "/" for ::1 at 2022-04-08 01:06:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 2342)
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 3362)
+Completed 200 OK in 47ms (Views: 39.0ms | Allocations: 3664)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering home/send_request.html.erb within layouts/application
+  Rendered home/send_request.html.erb within layouts/application (Duration: 1.9ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 1248)
+Completed 200 OK in 60324ms (Views: 26.8ms | Allocations: 8167)
+
+
+Started GET "/" for ::1 at 2022-04-08 01:09:22 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 2343)
+  Rendered layout layouts/application.html.erb (Duration: 49.5ms | Allocations: 3341)
+Completed 200 OK in 61ms (Views: 52.4ms | Allocations: 3617)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 01:10:58 -0500
+Processing by HomeController#send_request as HTML
+Completed 500 Internal Server Error in 120020ms (Allocations: 1485)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:15:in `send_request'
+Started GET "/" for ::1 at 2022-04-08 01:31:28 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 3010)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 4176)
+Completed 200 OK in 52ms (Views: 47.1ms | Allocations: 4799)
+
+
+Started GET "/home/send_request" for ::1 at 2022-04-08 01:32:14 -0500
+Processing by HomeController#send_request as HTML
+Completed 500 Internal Server Error in 85500ms (Allocations: 1437)
+
+
+  
+Errno::ECONNRESET (An existing connection was forcibly closed by the remote host.):
+  
+app/controllers/home_controller.rb:15:in `send_request'
+Started GET "/" for ::1 at 2022-04-08 01:37:00 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 106.4ms | Allocations: 3199)
+  Rendered layout layouts/application.html.erb (Duration: 137.7ms | Allocations: 4524)
+Completed 200 OK in 180ms (Views: 165.5ms | Allocations: 5329)
+
+
+Started GET "/" for ::1 at 2022-04-08 01:43:02 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 75.4ms | Allocations: 3657)
+  Rendered layout layouts/application.html.erb (Duration: 99.6ms | Allocations: 4986)
+Completed 200 OK in 133ms (Views: 123.1ms | Allocations: 5927)
+
+
+Started GET "/home/send_request_twtr_15" for ::1 at 2022-04-08 01:43:37 -0500
+Processing by HomeController#send_request_twtr_15 as HTML
+Completed 500 Internal Server Error in 73787ms (Allocations: 1399)
+
+
+  
+Errno::ECONNRESET (An existing connection was forcibly closed by the remote host.):
+  
+app/controllers/home_controller.rb:13:in `send_request_twtr_15'
+Started GET "/" for ::1 at 2022-04-08 01:51:27 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 119.7ms | Allocations: 3817)
+  Rendered layout layouts/application.html.erb (Duration: 165.8ms | Allocations: 5145)
+Completed 200 OK in 224ms (Views: 204.1ms | Allocations: 6086)
+
+
+Started GET "/home/send_request_aapl_30" for ::1 at 2022-04-08 01:51:46 -0500
+Processing by HomeController#send_request_aapl_30 as HTML
+Completed 500 Internal Server Error in 120027ms (Allocations: 1535)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:47:in `send_request_aapl_30'
+Started GET "/home/send_request_twtr_60" for ::1 at 2022-04-08 02:00:47 -0500
+Processing by HomeController#send_request_twtr_60 as HTML
+Completed 500 Internal Server Error in 120018ms (Allocations: 1472)
+
+
+  
+Net::ReadTimeout (Net::ReadTimeout with #<Socket:(closed)>):
+  
+app/controllers/home_controller.rb:26:in `send_request_twtr_60'
+Started GET "/" for ::1 at 2022-04-08 02:04:06 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 94.6ms | Allocations: 776)
+  Rendered layout layouts/application.html.erb (Duration: 121.9ms | Allocations: 2337)
+Completed 200 OK in 158ms (Views: 142.3ms | Allocations: 3242)
+
+
+Started GET "/" for ::1 at 2022-04-08 02:12:53 -0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 149.4ms | Allocations: 1157)
+  Rendered layout layouts/application.html.erb (Duration: 173.1ms | Allocations: 2736)
+Completed 200 OK in 216ms (Views: 200.1ms | Allocations: 3679)
+
+
